@@ -3,14 +3,20 @@
 title: Daas Design
 baseurl: /daasdesign # name of the repository
 email: ruben@daasdesign.nl
+description: >
+  <p>Als ontwerper richt ik mij voornamelijk op het visualiseren van het liefst zo complex mogelijke verhalen door middel van goede websites of infographics. Ik kan mij storen aan inspirerende concepten of onderzoeken die in mijn ogen onjuist gepresenteerd worden.
+  Tijdens mijn studie Grafisch Ontwerpen aan de Willem de Kooning Academie te Rotterdam merkte ik dat ik mijn ontwerpkeuzes graag onderbouw met data en dat ik liever voor het functionele kies dan voor het esthetische. Deze werkvorm heb ik voortgezet tijdens mijn werkzaamheden bij Explanation Design te Haarlem.</p>
+
+  <p>De wetenschap en/of de journalistiek zijn de gebieden waar mijn grootste interesse ligt. Daar wil ik mijn kennis en ervaring inzetten.</p>
 
 highlighter: rouge
 markdown: kramdown
 ### exclude the instructions / write-up in the README.md
 # Collections
 collections:
-- work
-
+  projecten:
+    output: true
+    permalink: /project/:title/
 # Tracker
 # analytics: UA-83979019-1
 

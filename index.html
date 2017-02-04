@@ -2,4 +2,7 @@
 layout: default
 ---
 <h1>{{site.title}}</h1>
-<p>basic SASS working &amp; Bootstrap variables an customization set up</p>
+{{site.description}}
+{% for project in site.projecten %}
+<h3>{{project.title}}</h3>
+{% endfor %}
