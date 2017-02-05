@@ -1,0 +1,45 @@
+/* Projecten  --------------*/
+.include--projecten__inner {
+  position: relative;
+}
+.include--projecten__inner .svg-ornaments {
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  width: 102%;
+}
+.include--projecten:nth-child(even) .svg-ornaments {
+  transform: scaleX(-1);
+}
+.include--projecten__inner .featured-image {
+  width: 100%;
+}
+.include--projecten__content {
+  padding: 45px 45px 0px 45px;
+}
+.include--projecten__content__meta {
+	text-align: justify;
+}
+
+.include--projecten__content__meta:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.include--projecten__content__meta > * {
+	display: inline-block;
+  vertical-align: top;
+}
+.include--projecten__content__full {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+.include--projecten__content__full.active {
+  max-height: 2000px;
+}
+
+/* END Projecten  --------------*/
